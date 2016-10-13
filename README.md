@@ -18,9 +18,9 @@
     !!! these functions will result Promise (async) !!!
 
     static packing2String(json)
-      => json => stringify => zipped => base64    
+      => json => stringify => Promise.resolve(zipped => base64)
     static unpackingFromString(str)
-      => base64 => unzipped => parse => json
+      => base64 => Promise.resolve(unzipped => parse => json)
 ```
 
 setup
@@ -46,3 +46,5 @@ run benchmark
 > zipping.toString('base64')
 >  size:  1450
 ```
+
+
