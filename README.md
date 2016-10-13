@@ -5,6 +5,22 @@
 * ES6 coding style.
 * using [msgpack5](https://www.npmjs.com/package/msgpack5)
 
+* packing up json data to base64 string (magpacked).
+```js
+    static packing2String(json)
+      => json => stringify => msgpacked => base64
+    static unpackingFromString(str)
+      => base64 => msgunpacked => parse => json
+```
+
+* packing up json data to base64 string (zipped).
+```
+    static packing2String(json)
+      => json => stringify => zipped => base64    
+    static unpackingFromString(str)
+      => base64 => unzipped => parse => json
+```
+
 setup
 ```
 > git clone
