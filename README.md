@@ -15,6 +15,8 @@
 
 * packing up json data to base64 string (zipped).
 ```
+    !!! these functions will result Promise (async) !!!
+
     static packing2String(json)
       => json => stringify => zipped => base64    
     static unpackingFromString(str)
@@ -32,7 +34,7 @@ test
 > npm test
 ```
 
-runnin benchmark
+run benchmark
 ```js
 > npm run bench
 >
