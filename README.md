@@ -34,8 +34,8 @@
 
 setup
 ```
-> git clone
-> make install
+> git clone git@github.com:hirowaki/json-pack.git
+> npm install
 ```
 
 test
