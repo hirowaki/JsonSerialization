@@ -1,4 +1,4 @@
-install: # run linting.
+module-refresh:
 	rm -rf node_modules && npm install
 
 lint: # run linting.

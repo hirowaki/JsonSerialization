@@ -1,7 +1,7 @@
 'use strict';
 /*eslint-disable no-console*/
 
-const PackJson = require('./../lib/PackJson');
+const PackJson = require('./../index');
 const testJson = require('./SampleJson.json');
 
 function _benchMark() {

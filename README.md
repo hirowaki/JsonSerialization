@@ -1,9 +1,16 @@
 # JsonSerialization
-(node.js) JsonSerialization/Deserialization using `msgback5` and `node.zip`.
+(node.js) pack/unpack json to string using `msgback5` and `node.zip`.
 
-* node v4.
-* ES6 coding style.
+[![Build Status](https://travis-ci.org/hirowaki/json-pack.svg?branch=master)](https://travis-ci.org/hirowaki/json-pack)
+
+* ES6. (using Promise.)
 * using [msgpack5](https://www.npmjs.com/package/msgpack5)
+* Tested in the node versions below.
+  - "6.9.3"
+  - "5.12.0"
+  - "4.7.1"
+  - "4.3.0"
+  - "4.0"
 
 * packing up json data to base64 string (magpacked).
 ```js

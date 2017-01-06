@@ -3,7 +3,7 @@
 const _ = require('lodash');
 const sinon = require('sinon');
 const assert = require('assert');
-const PackJson = require('./../lib/PackJson');
+const PackJson = require('./../index');
 const zlib = require('zlib');
 
 describe('PackJson.', function () {
