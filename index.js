@@ -1,4 +1,8 @@
 'use strict';
+/*
+ json-pack/index.js
+ Copyright (c) 2017 hirowaki https://github.com/hirowaki
+*/
 
 const msgpack = require('msgpack5')();
 const zlib = require('zlib');
